@@ -16,12 +16,12 @@ const App = () => {
     <IonApp>
       <Header />
       <MenuFab />
-      <IonReactRouter basename="/">
+      <IonReactRouter basename="/e-business-application-prototype/">
         <IonRouterOutlet>
           <Route path="/e-business-application-prototype/home" exact={true} />
           <Redirect
             exact
-            from="/e-business-application-prototype"
+            from="/e-business-application-prototype/"
             to="/e-business-application-prototype/home"
           />
         </IonRouterOutlet>
