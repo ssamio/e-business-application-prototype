@@ -1,6 +1,6 @@
 import React from "react";
 import "@ionic/react/css/core.css";
-import { Route, Redirect } from "react-router-dom";
+import { Route } from "react-router-dom";
 import { IonApp, IonRouterOutlet } from "@ionic/react";
 import { IonReactRouter } from "@ionic/react-router";
 import "./App.css";
