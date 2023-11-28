@@ -2,7 +2,7 @@
   "name": "e-business-application-prototype",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ssamio.github.io/prototype",
+  "homepage": "https://ssamio.github.io/e-business-application-prototype/",
   "dependencies": {
     "@ionic/react": "^7.5.6",
     "@ionic/react-router": "^7.5.6",
