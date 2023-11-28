@@ -18,12 +18,7 @@ const App = () => {
       <MenuFab />
       <IonReactRouter basename="/e-business-application-prototype/">
         <IonRouterOutlet>
-          <Route path="/e-business-application-prototype/home" exact={true} />
-          <Redirect
-            exact
-            from="/e-business-application-prototype/"
-            to="/e-business-application-prototype/home"
-          />
+          <Route path="/e-business-application-prototype/" exact={true} />
         </IonRouterOutlet>
       </IonReactRouter>
       <Footer />
