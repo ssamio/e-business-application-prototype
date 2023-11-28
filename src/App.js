@@ -17,7 +17,7 @@ const App = () => {
     <IonApp>
       <Header />
       <MenuFab />
-      <IonReactRouter>
+      <IonReactRouter basename="/">
         <IonRouterOutlet>
           <Route path="/home" exact={true} />
           <Redirect exact from="/" to="/home" />
