@@ -16,7 +16,7 @@ const MenuFab = () => {
         <IonIcon icon={menuOutline}></IonIcon>
       </IonFabButton>
       <IonFabList side="top">
-        <IonFabButton routerLink="/home">
+        <IonFabButton routerLink="/e-business-application-prototype/home">
           <IonIcon icon={homeOutline}></IonIcon>
         </IonFabButton>
         <IonFabButton>

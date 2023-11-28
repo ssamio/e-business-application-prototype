@@ -7,7 +7,6 @@ import "./App.css";
 import Header from "./Header";
 import Footer from "./Footer";
 import MenuFab from "./MenuFab";
-
 import { setupIonicReact } from "@ionic/react";
 
 setupIonicReact();
@@ -19,8 +18,12 @@ const App = () => {
       <MenuFab />
       <IonReactRouter basename="/">
         <IonRouterOutlet>
-          <Route path="/home" exact={true} />
-          <Redirect exact from="/" to="/home" />
+          <Route path="/e-business-application-prototype/home" exact={true} />
+          <Redirect
+            exact
+            from="/e-business-application-prototype"
+            to="/e-business-application-prototype/home"
+          />
         </IonRouterOutlet>
       </IonReactRouter>
       <Footer />
