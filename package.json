@@ -2,6 +2,7 @@
   "name": "e-business-application-prototype",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ssamio.github.io/prototype",
   "dependencies": {
     "@ionic/react": "^7.5.6",
     "@ionic/react-router": "^7.5.6",
@@ -15,6 +16,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
