@@ -1,13 +1,13 @@
 import React from "react";
 import "@ionic/react/css/core.css";
-import { Route } from "react-router-dom";
-import { IonApp, IonRouterOutlet } from "@ionic/react";
-import { IonReactRouter } from "@ionic/react-router";
+import { IonApp } from "@ionic/react";
 import "./App.css";
 import Header from "./Header";
 import Footer from "./Footer";
 import MenuFab from "./MenuFab";
+import MainPage from "./MainPage";
 import { setupIonicReact } from "@ionic/react";
+import "leaflet/dist/leaflet.css";
 
 setupIonicReact();
 
@@ -16,11 +16,7 @@ const App = () => {
     <IonApp>
       <Header />
       <MenuFab />
-      <IonReactRouter basename="/e-business-application-prototype/">
-        <IonRouterOutlet>
-          <Route path="/e-business-application-prototype/" exact={true} />
-        </IonRouterOutlet>
-      </IonReactRouter>
+      <MainPage />
       <Footer />
     </IonApp>
   );

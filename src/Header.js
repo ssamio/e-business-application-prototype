@@ -12,7 +12,7 @@ const Header = () => {
           size="large"
           color="primary"
         ></IonIcon>
-        <IonTitle>COMPANY NAME GOES HERE</IonTitle>
+        <IonTitle>PEOPLE MOVING COMPANY</IonTitle>
       </IonToolbar>
     </IonHeader>
   );

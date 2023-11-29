@@ -6,7 +6,6 @@ import {
   personOutline,
   ticketOutline,
   logOutOutline,
-  homeOutline,
 } from "ionicons/icons";
 
 const MenuFab = () => {
@@ -16,9 +15,6 @@ const MenuFab = () => {
         <IonIcon icon={menuOutline}></IonIcon>
       </IonFabButton>
       <IonFabList side="top">
-        <IonFabButton routerLink="/e-business-application-prototype/">
-          <IonIcon icon={homeOutline}></IonIcon>
-        </IonFabButton>
         <IonFabButton>
           <IonIcon icon={personOutline}></IonIcon>
         </IonFabButton>

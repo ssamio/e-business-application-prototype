@@ -5,9 +5,7 @@ const Footer = () => {
   return (
     <IonFooter class="ion-no-border">
       <IonToolbar style={{ width: "100%" }}>
-        <IonLabel slot="start">
-          Application prototype. Testing purposes only.
-        </IonLabel>
+        <IonLabel slot="start">Testing purposes only.</IonLabel>
       </IonToolbar>
     </IonFooter>
   );
