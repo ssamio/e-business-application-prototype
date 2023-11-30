@@ -7,7 +7,6 @@ import Footer from "./Footer";
 import MenuFab from "./MenuFab";
 import MainPage from "./MainPage";
 import { setupIonicReact } from "@ionic/react";
-import "leaflet/dist/leaflet.css";
 
 setupIonicReact();
 

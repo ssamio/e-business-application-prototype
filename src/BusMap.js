@@ -1,8 +1,8 @@
 import { IonCard, IonInput, IonCardContent, IonCardHeader } from "@ionic/react";
+import { Map } from "pigeon-maps";
 import React from "react";
-import { MapContainer, TileLayer } from "react-leaflet";
 
-const BusMap = () => {
+const BusMap = ({ height }) => {
   const position = [63.096, 21.615];
 
   return (
@@ -11,21 +11,11 @@ const BusMap = () => {
         <IonInput placeholder="Where would you like to go?"></IonInput>
       </IonCardHeader>
       <IonCardContent>
-        <MapContainer
-          center={position}
-          zoom={13}
-          scrollWheelZoom={false}
-          style={{
-            height: "60vh",
-            width: "100%",
-            backgroundColor: "whitesmoke",
-          }}
-        >
-          <TileLayer
-            url="http://{s}.tile.osm.org/{z}/{x}/{y}.png"
-            attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-          />
-        </MapContainer>
+        <Map
+          defaultCenter={position}
+          height={height * 0.6}
+          defaultZoom={13}
+        ></Map>
       </IonCardContent>
     </IonCard>
   );

@@ -16,16 +16,16 @@ const MenuFab = () => {
       </IonFabButton>
       <IonFabList side="top">
         <IonFabButton>
-          <IonIcon icon={personOutline}></IonIcon>
+          <IonIcon color="primary" icon={personOutline}></IonIcon>
         </IonFabButton>
         <IonFabButton>
-          <IonIcon icon={ticketOutline}></IonIcon>
+          <IonIcon color="primary" icon={ticketOutline}></IonIcon>
         </IonFabButton>
         <IonFabButton>
-          <IonIcon icon={helpOutline}></IonIcon>
+          <IonIcon color="primary" icon={helpOutline}></IonIcon>
         </IonFabButton>
         <IonFabButton>
-          <IonIcon icon={logOutOutline}></IonIcon>
+          <IonIcon color="danger" icon={logOutOutline}></IonIcon>
         </IonFabButton>
       </IonFabList>
     </IonFab>
