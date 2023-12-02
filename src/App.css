@@ -36,3 +36,46 @@
     transform: rotate(360deg);
   }
 }
+.toolbar-logo {
+  max-width: 200px;
+  max-height: 100px;
+}
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+ion-toolbar {
+  --background: #fcfcfc;
+  --padding-start: 10px;
+  --padding-end: 10px;
+}
+
+ion-content {
+  --background: #fcfcfc;
+}
+
+ion-segment-button {
+  --color: #ec5b82;
+  --color-checked: #ec5b82;
+  --color-focused: #ec5b82;
+}
+
+.red-accent {
+  --highlight-color-focused: #ec5b82;
+}
+
+.red-button {
+  --color-activated: #fcfcfc;
+  --color: #ec5b82;
+  --background: #fcfcfc;
+  --box-shadow: #fcfcfc;
+  --color-hover: #ec5b82;
+  --background-activated: #ec5b82;
+}
+
+ion-fab-button {
+  --color: #ec5b82;
+}

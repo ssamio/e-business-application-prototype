@@ -1,18 +1,14 @@
 import React from "react";
-import { IonToolbar, IonIcon, IonHeader, IonTitle } from "@ionic/react";
-import { chevronForward } from "ionicons/icons";
+import { IonToolbar, IonImg, IonHeader } from "@ionic/react";
+import logo from "./assets/logo.jpeg";
 
 const Header = () => {
   return (
     <IonHeader class="ion-no-border">
       <IonToolbar style={{ width: "100%" }}>
-        <IonIcon
-          slot="start"
-          icon={chevronForward}
-          size="large"
-          color="primary"
-        ></IonIcon>
-        <IonTitle>name goes here</IonTitle>
+        <div className="logo-container">
+          <IonImg className="toolbar-logo" src={logo} />
+        </div>
       </IonToolbar>
     </IonHeader>
   );
