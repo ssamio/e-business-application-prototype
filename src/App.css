@@ -79,3 +79,7 @@ ion-segment-button {
 ion-fab-button {
   --color: #ec5b82;
 }
+
+.red-title {
+  color: #ec5b82;
+}
